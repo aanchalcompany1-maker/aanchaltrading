@@ -1,0 +1,17 @@
+User-agent: *
+Allow: /
+Disallow: /404.html
+Disallow: /assets/js/
+Disallow: /assets/css/
+
+User-agent: Googlebot
+Allow: /assets/images/
+
+User-agent: Bingbot
+Allow: /assets/images/
+
+Sitemap: https://www.aanchaltrading.com.np/sitemap.xml
+
+# Crawl-delay for polite bots
+User-agent: *
+Crawl-delay: 2
