@@ -1,6 +1,5 @@
 User-agent: *
 Allow: /
-Disallow: /assets/js/
 Crawl-delay: 2
 
 Sitemap: https://www.aanchaltrading.com.np/sitemap.xml
