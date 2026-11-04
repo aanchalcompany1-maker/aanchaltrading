@@ -68,7 +68,10 @@
            font-src   https://fonts.gstatic.com https://cdnjs.cloudflare.com;
            img-src    'self' data:;
            frame-src  https://maps.google.com https://www.google.com;
-           connect-src 'none'">
+           connect-src 'none';
+           object-src 'none';
+           base-uri 'self';
+           form-action 'none'">
 <meta name="viewport" content="width=device-width,initial-scale=1"/>
 
 <link rel="preconnect" href="https://fonts.googleapis.com"/>
@@ -79,7 +82,7 @@
   integrity="sha512-Avb2QiuDEEvB4bZJYdab/DfTUBaWKIZMVyUMWxGP+SXqHJWnaGFhABRSZFBLb+FWf2BFT8KtjzGKOl09LXQA=="
   crossorigin="anonymous"
   referrerpolicy="no-referrer"/>
-<link rel="stylesheet" href="assets/css/style.css"/>
+<link rel="stylesheet" href="assets/css/style.css?v=20261104"/>
 <style>
 .trophy-row{display:flex;align-items:center;justify-content:center;gap:12px;margin-bottom:8px;font-size:2rem}
 .award-tag{background:rgba(212,168,83,.12);border:1px solid rgba(212,168,83,.3);color:var(--gold);font-size:.75rem;padding:3px 12px;border-radius:20px;font-weight:600;display:inline-block;margin-bottom:8px}
@@ -317,6 +320,6 @@
   <div style="text-align:center;padding-bottom:12px;"><p style="font-size:0.72rem;color:#555;margin-top:4px;">Technical issues? <a href="mailto:sushantshrestha2561@gmail.com" style="color:#666;text-decoration:none;">sushantshrestha2561@gmail.com</a></p></div>
 </footer>
 
-<script src="assets/js/main.min.js"></script>
+<script src="assets/js/main.min.js?v=20261104"></script>
 </body>
 </html>
